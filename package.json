@@ -2,15 +2,17 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "defaults": "webpack-defaults"
   },
   "dependencies": {
-    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.13.2",
+    "bulma": "^0.7.4",
     "next": "^7.0.2",
     "next-redux-wrapper": "^3.0.0-alpha.0",
-    "node-sass": "^4.11.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "react-redux": "^6.0.0",
     "redux": "^4.0.1"
   },

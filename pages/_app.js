@@ -1,6 +1,8 @@
 import React from "react";
 import App, { Container } from "next/app";
-import "../sass/index.scss";
+import "bulma/css/bulma.css";
+import "antd/dist/antd.css";
+import "../css/index.css";
 import { Provider } from "react-redux";
 import withRedux from "next-redux-wrapper";
 import combinedStores from "stores";
